@@ -1,3 +1,5 @@
+// link : https://school.programmers.co.kr/learn/courses/30/lessons/12941?language=javascript
+
 const productSum = (A, B) => {
   if (!A.length * B.length) return -1;
   let res = 0;

@@ -1,3 +1,5 @@
+// link : https://www.hackerrank.com/challenges/maximizing-xor/problem
+
 function maximizingXor(l, r) {
   // Write your code here
   let maxXor = -Infinity;

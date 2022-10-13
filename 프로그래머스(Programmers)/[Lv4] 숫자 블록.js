@@ -1,3 +1,5 @@
+// link : https://school.programmers.co.kr/learn/courses/30/lessons/12923
+
 const solution = (begin, end) => {
   const road = [0, 0];
   const blocks = new Array(end + 1).fill(false);
