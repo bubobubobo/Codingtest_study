@@ -1,10 +1,12 @@
 const minCostClimbingStairs = cost => {
-  const minCost = [0, 0];
-  const goal = cost.length;
-  for (let i = 2; i <= goal; i++) {
-    minCost.push(Math.min(minCost[i - 2] + cost[i - 2], minCost[i - 1] + cost[i - 1]));
+  // top of the floor
+  const top = cost.length;
+  const minCosts = [0, 0];
+
+  for (let i = 2; i <= top; i++) {
+    minCosts[i] = Math.min(minCosts[i - 2] + cost[i - 2], minCosts[i - 1] + cost[i - 1]);
   }
-  return minCost[goal];
+  return minCosts[top];
 };
 
 const cost = [10, 15, 20];
