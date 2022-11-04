@@ -1,2 +1,2 @@
 # Codingtest_study
-Deals with LeetCode, Algorithm, Kakao, Programmers problems
+Deals with LeetCode, Algorithm, Kakao, Programmers, HackerRank problems
